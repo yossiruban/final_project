@@ -51,3 +51,4 @@ The project is an example of building an infrastructure for performing automatio
 ### Known Issues:
 Conflicts with some dependencies can happen when variety of applications are used in the same project (mobile application in this project). 
 Since, this project created for DEMO purposes only, In production it has to be divided into several projects (mobile / desktop etc.)
+
