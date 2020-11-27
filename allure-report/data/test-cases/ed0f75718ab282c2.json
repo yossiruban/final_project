@@ -1,0 +1,292 @@
+{
+  "uid" : "ed0f75718ab282c2",
+  "name" : "Test03 Delete and Verify Employee",
+  "fullName" : "SanityTests.orangeWeb.test03_DeleteEmployee",
+  "historyId" : "b0dd2f971244b858226f62ac896c06ae",
+  "time" : {
+    "start" : 1599317091788,
+    "stop" : 1599317095524,
+    "duration" : 3736
+  },
+  "description" : "Test Description: Delete a new Employee and Verify No Records Found",
+  "descriptionHtml" : "<p>Test Description: Delete a new Employee and Verify No Records Found</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1599317063688,
+      "stop" : 1599317077659,
+      "duration" : 13971
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Delete a new Employee and Verify No Records Found",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Search Employee",
+      "time" : {
+        "start" : 1599317091789,
+        "stop" : 1599317093762,
+        "duration" : 1973
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1599317091855,
+          "stop" : 1599317092862,
+          "duration" : 1007
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: menu_pim_viewPimModule]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: menu_pim_viewEmployeeList]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1599317092890,
+          "stop" : 1599317093041,
+          "duration" : 151
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: empsearch_id]"
+        }, {
+          "name" : "value",
+          "value" : "0089"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317093054,
+          "stop" : 1599317093762,
+          "duration" : 708
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: searchBtn]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "EmployeeId",
+        "value" : "0089"
+      } ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Delete Employee",
+      "time" : {
+        "start" : 1599317093762,
+        "stop" : 1599317095418,
+        "duration" : 1656
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317093822,
+          "stop" : 1599317094057,
+          "duration" : 235
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: ohrmList_chkSelectAll]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317094085,
+          "stop" : 1599317094228,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: btnDelete]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317094279,
+          "stop" : 1599317095418,
+          "duration" : 1139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: dialogDeleteBtn]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1599317095447,
+        "stop" : 1599317095524,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> xpath: //table[@id='resultTable']//td[@colspan='8']]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "No Records Found"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1599317095526,
+      "stop" : 1599317096328,
+      "duration" : 802
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1599317098073,
+      "stop" : 1599317098976,
+      "duration" : 903
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.orangeWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.orangeWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test03_DeleteEmployee"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.orangeWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BRDGUEK"
+  }, {
+    "name" : "thread",
+    "value" : "5176@DESKTOP-BRDGUEK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "Web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed0f75718ab282c2.json",
+  "parameterValues" : [ "Web" ]
+}

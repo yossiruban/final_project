@@ -1,0 +1,301 @@
+{
+  "uid" : "660eaa119c1bf678",
+  "name" : "Test03: Update Student and Verify ",
+  "fullName" : "SanityTests.StudentListAPI.test03_UpdateStudentList",
+  "historyId" : "ba4de84a5239b33082979bae2f63cd4b",
+  "time" : {
+    "start" : 1599316897106,
+    "stop" : 1599316897264,
+    "duration" : 158
+  },
+  "description" : "Test Description: Update and Verify Student List ",
+  "descriptionHtml" : "<p>Test Description: Update and Verify Student List</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1599316889524,
+      "stop" : 1599316893043,
+      "duration" : 3519
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Update and Verify Student List ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Update Student List",
+      "time" : {
+        "start" : 1599316897106,
+        "stop" : 1599316897137,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Data in Server",
+        "time" : {
+          "start" : 1599316897106,
+          "stop" : 1599316897137,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"firstName\":\"yossi\",\"lastName\":\"ruban\",\"programme\":\"QA\",\"email\":\"yossi@gmail.co\"}"
+        }, {
+          "name" : "resource",
+          "value" : "/student/114"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "firstName",
+        "value" : "yossi"
+      }, {
+        "name" : "lastName",
+        "value" : "ruban"
+      }, {
+        "name" : "email",
+        "value" : "yossi@gmail.co"
+      }, {
+        "name" : "programme",
+        "value" : "QA"
+      }, {
+        "name" : "id",
+        "value" : "114"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get Student List",
+      "time" : {
+        "start" : 1599316897138,
+        "stop" : 1599316897264,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1599316897138,
+          "stop" : 1599316897183,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/student/list"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1599316897184,
+          "stop" : 1599316897264,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@24e2355c"
+        }, {
+          "name" : "path",
+          "value" : "[100].programme"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jpath",
+        "value" : "[100].programme"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Text with Text",
+      "time" : {
+        "start" : 1599316897264,
+        "stop" : 1599316897264,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actualText",
+        "value" : "QA"
+      }, {
+        "name" : "expectedText",
+        "value" : "QA"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1599316897271,
+      "stop" : 1599316897271,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1599316897410,
+      "stop" : 1599316897413,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.StudentListAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.StudentListAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test03_UpdateStudentList"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "api Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.StudentListAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BRDGUEK"
+  }, {
+    "name" : "thread",
+    "value" : "6916@DESKTOP-BRDGUEK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3901e49dce25e927",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599316856236,
+        "stop" : 1599316856412,
+        "duration" : 176
+      }
+    }, {
+      "uid" : "df827d9ab7d091e0",
+      "status" : "failed",
+      "statusDetails" : "expected [QA] but found [QA Automation]",
+      "time" : {
+        "start" : 1599316802144,
+        "stop" : 1599316802373,
+        "duration" : 229
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6a9806b4846a9243",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20desktop/11/allure/#testresult/6a9806b4846a9243",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316897106,
+          "stop" : 1599316897264,
+          "duration" : 158
+        }
+      }, {
+        "uid" : "d5cc94a19b14a33c",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20desktop/10/allure/#testresult/d5cc94a19b14a33c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598353242594,
+          "stop" : 1598353242743,
+          "duration" : 149
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "660eaa119c1bf678.json",
+  "parameterValues" : [ "api" ]
+}

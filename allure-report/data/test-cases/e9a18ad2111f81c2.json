@@ -1,0 +1,250 @@
+{
+  "uid" : "e9a18ad2111f81c2",
+  "name" : "Test02: Add new Student ",
+  "fullName" : "SanityTests.StudentListAPI.test02_AddStudentList",
+  "historyId" : "6cdad57c96e39ee8a52411fc49b8eac9",
+  "time" : {
+    "start" : 1599316801713,
+    "stop" : 1599316802016,
+    "duration" : 303
+  },
+  "description" : "Test Description: Add new Student to Student List ",
+  "descriptionHtml" : "<p>Test Description: Add new Student to Student List</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1599316793973,
+      "stop" : 1599316797697,
+      "duration" : 3724
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Add new Student to Student List ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create New Student",
+      "time" : {
+        "start" : 1599316801714,
+        "stop" : 1599316801807,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Post Data to Server",
+        "time" : {
+          "start" : 1599316801716,
+          "stop" : 1599316801807,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"firstName\":\"yossi\",\"lastName\":\"ruban\",\"programme\":\"QA Automation\",\"email\":\"yossi@gmail.co\"}"
+        }, {
+          "name" : "resource",
+          "value" : "/student/"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "firstName",
+        "value" : "yossi"
+      }, {
+        "name" : "lastName",
+        "value" : "ruban"
+      }, {
+        "name" : "email",
+        "value" : "yossi@gmail.co"
+      }, {
+        "name" : "programme",
+        "value" : "QA Automation"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get Student List",
+      "time" : {
+        "start" : 1599316801807,
+        "stop" : 1599316802002,
+        "duration" : 195
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1599316801807,
+          "stop" : 1599316801873,
+          "duration" : 66
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/student/list"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1599316801873,
+          "stop" : 1599316802001,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@29532e91"
+        }, {
+          "name" : "path",
+          "value" : "email"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jpath",
+        "value" : "email"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Numbers of Student",
+      "time" : {
+        "start" : 1599316802003,
+        "stop" : 1599316802016,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "list",
+        "value" : "[egestas.rhoncus.Proin@massaQuisqueporttitor.org, faucibus.orci.luctus@Duisac.net, tincidunt.dui@ultricessit.co.uk, nascetur@conguea.com, imperdiet.ullamcorper@nonenimMauris.co.uk, vestibulum@ridiculusmus.edu, eu.tellus@anuncIn.edu, scelerisque.sed@senectuset.org, faucibus@sed.co.uk, Fusce.dolor.quam@commodoauctor.org, magnis.dis@idmagnaet.com, turpis.non.enim@sociisnatoque.com, In.tincidunt.congue@Quisque.com, Integer.sem@iaculisodioNam.edu, accumsan@luctuset.edu, montes.nascetur.ridiculus@loremDonec.com, turpis.egestas.Aliquam@fermentum.net, Suspendisse.aliquet.sem@atrisus.org, dolor.elit.pellentesque@enimEtiamimperdiet.ca, leo.Vivamus@sit.org, hendrerit@et.co.uk, vel.vulputate@vitaedolorDonec.ca, venenatis.a@Pellentesque.co.uk, Sed.malesuada@porttitoreros.ca, ornare@Mauriseuturpis.edu, Nullam@Cras.net, pharetra.sed@Aliquamvulputateullamcorper.ca, sed.turpis.nec@risusQuisque.ca, consequat.enim@ultricessit.com, Fusce@Quisquefringillaeuismod.org, ornare.libero@perinceptoshymenaeos.co.uk, Proin.vel@placerat.org, id@incursus.co.uk, Vestibulum@adlitora.net, amet.ante@sit.com, neque@interdumfeugiat.net, magnis.dis.parturient@laciniaorci.edu, et@ipsum.net, turpis@sagittisplaceratCras.ca, ridiculus.mus@tempus.net, at.pretium@eleifendvitae.net, vel.turpis.Aliquam@metus.org, orci.luctus.et@posuere.com, Quisque.tincidunt@nullaanteiaculis.co.uk, dictum@tortorInteger.org, diam@nectellusNunc.edu, sagittis.semper@urnaNullam.net, dignissim.Maecenas.ornare@adui.edu, cursus.non.egestas@laciniaorci.net, Vivamus.rhoncus@semutcursus.ca, orci.lacus@hendreritDonecporttitor.net, mauris@malesuada.ca, mauris.ipsum.porta@sit.ca, augue.malesuada@Pellentesqueut.net, Lorem.ipsum.dolor@eu.co.uk, purus@mollis.co.uk, pharetra.Quisque.ac@facilisisSuspendisse.edu, inceptos.hymenaeos.Mauris@Proin.edu, ridiculus.mus.Donec@netus.org, mi.felis.adipiscing@liberoettristique.edu, Ut.tincidunt.vehicula@nuncidenim.edu, rhoncus@sociisnatoquepenatibus.ca, eget.metus.In@disparturientmontes.org, ut.nulla@netuset.co.uk, ac.turpis@facilisislorem.net, ante.blandit@semeget.org, lobortis@nequevenenatislacus.net, Cras@lorem.org, vel.venenatis@Nullamvelit.com, quam.vel.sapien@vellectusCum.org, Nulla@nuncid.net, In@vestibulumlorem.com, rutrum@mattis.org, Aliquam.ultrices.iaculis@duiquisaccumsan.co.uk, fermentum@diam.com, semper@enimcommodohendrerit.co.uk, enim.Etiam.imperdiet@sitamet.ca, Proin.nisl.sem@Aliquamnecenim.org, in.dolor@pede.co.uk, Cras.vulputate.velit@ornare.org, risus.quis.diam@Proin.ca, hendrerit.neque@a.co.uk, ipsum.non@vitae.co.uk, ultrices@Nullam.net, ipsum.porta.elit@morbitristique.net, auctor.vitae.aliquet@parturient.org, Nulla.eget@musDonecdignissim.co.uk, est.Mauris@et.co.uk, sem.eget@posuerecubiliaCurae.ca, est.congue@velit.com, risus.varius.orci@sitamet.edu, a.ultricies@duiFusce.edu, a@pretium.ca, sapien.gravida.non@noncursus.com, luctus.lobortis@nonbibendumsed.com, lacinia.mattis@risusDonec.net, Nunc.laoreet@Sed.ca, molestie@vitaesemper.ca, semper@nequesed.co.uk, non.ante.bibendum@risusDonecegestas.edu, yossi@gmail.co]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "101"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1599316802642,
+      "stop" : 1599316802646,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1599316802125,
+      "stop" : 1599316802126,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.StudentListAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.StudentListAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_AddStudentList"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "api Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.StudentListAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BRDGUEK"
+  }, {
+    "name" : "thread",
+    "value" : "11072@DESKTOP-BRDGUEK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9a18ad2111f81c2.json",
+  "parameterValues" : [ "api" ]
+}

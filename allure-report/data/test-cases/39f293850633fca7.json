@@ -1,0 +1,382 @@
+{
+  "uid" : "39f293850633fca7",
+  "name" : "Test02 Add and Verify Employee",
+  "fullName" : "SanityTests.orangeWeb.test02_AddEmployee",
+  "historyId" : "3a7d37448b291dca6f896e38a56fb5",
+  "time" : {
+    "start" : 1599317084307,
+    "stop" : 1599317090981,
+    "duration" : 6674
+  },
+  "description" : "Test Description: Add a new Employee and Verify the Number of Employee",
+  "descriptionHtml" : "<p>Test Description: Add a new Employee and Verify the Number of Employee</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1599317063688,
+      "stop" : 1599317077659,
+      "duration" : 13971
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Add a new Employee and Verify the Number of Employee",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Add Employee",
+      "time" : {
+        "start" : 1599317084307,
+        "stop" : 1599317088491,
+        "duration" : 4184
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1599317084375,
+          "stop" : 1599317085586,
+          "duration" : 1211
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: menu_pim_viewPimModule]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: menu_pim_addEmployee]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317085597,
+          "stop" : 1599317086357,
+          "duration" : 760
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: menu_pim_addEmployee]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1599317086422,
+          "stop" : 1599317086648,
+          "duration" : 226
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: firstName]"
+        }, {
+          "name" : "value",
+          "value" : "Yossi"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1599317086665,
+          "stop" : 1599317086843,
+          "duration" : 178
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: middleName]"
+        }, {
+          "name" : "value",
+          "value" : ""
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1599317086860,
+          "stop" : 1599317086997,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: lastName]"
+        }, {
+          "name" : "value",
+          "value" : "Ruban"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317087019,
+          "stop" : 1599317088453,
+          "duration" : 1434
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: btnSave]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get Employee Id",
+        "time" : {
+          "start" : 1599317088453,
+          "stop" : 1599317088491,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "FirstName",
+        "value" : "Yossi"
+      }, {
+        "name" : "MiddleName",
+        "value" : ""
+      }, {
+        "name" : "LastName",
+        "value" : "Ruban"
+      } ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Search Employee",
+      "time" : {
+        "start" : 1599317088491,
+        "stop" : 1599317090789,
+        "duration" : 2298
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1599317088521,
+          "stop" : 1599317089787,
+          "duration" : 1266
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: menu_pim_viewPimModule]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: menu_pim_viewEmployeeList]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1599317089814,
+          "stop" : 1599317089947,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: empsearch_id]"
+        }, {
+          "name" : "value",
+          "value" : "0089"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317089987,
+          "stop" : 1599317090789,
+          "duration" : 802
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> id: searchBtn]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "EmployeeId",
+        "value" : "0089"
+      } ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify New Employee Id",
+      "time" : {
+        "start" : 1599317090880,
+        "stop" : 1599317090980,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> xpath: //*[@id='resultTable']/tbody]]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1599317098073,
+      "stop" : 1599317098976,
+      "duration" : 903
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1599317090992,
+      "stop" : 1599317091776,
+      "duration" : 784
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.orangeWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.orangeWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_AddEmployee"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.orangeWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BRDGUEK"
+  }, {
+    "name" : "thread",
+    "value" : "5176@DESKTOP-BRDGUEK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "Web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39f293850633fca7.json",
+  "parameterValues" : [ "Web" ]
+}

@@ -1,0 +1,168 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "SanityTests",
+    "children" : [ {
+      "name" : "StudentListAPI",
+      "children" : [ {
+        "name" : "test01_getList",
+        "uid" : "d6715c01e8d1abac",
+        "parentUid" : "20c1643ccc9822186edf1a44d630f994",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316893140,
+          "stop" : 1599316896318,
+          "duration" : 3178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "test02_AddStudentList",
+        "uid" : "dbd461e7e397632a",
+        "parentUid" : "20c1643ccc9822186edf1a44d630f994",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316896658,
+          "stop" : 1599316897073,
+          "duration" : 415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "test03_UpdateStudentList",
+        "uid" : "660eaa119c1bf678",
+        "parentUid" : "20c1643ccc9822186edf1a44d630f994",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316897106,
+          "stop" : 1599316897264,
+          "duration" : 158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "test04_deleteStudentList",
+        "uid" : "fae1dbb818167d6a",
+        "parentUid" : "20c1643ccc9822186edf1a44d630f994",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316897275,
+          "stop" : 1599316897377,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "20c1643ccc9822186edf1a44d630f994"
+    }, {
+      "name" : "orangeWeb",
+      "children" : [ {
+        "name" : "test01_login",
+        "uid" : "552fe602842ec036",
+        "parentUid" : "41077b93f27736108fc7cef38ddd509c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317370847,
+          "stop" : 1599317376360,
+          "duration" : 5513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "test02_AddEmployee",
+        "uid" : "9340a41d5efbb021",
+        "parentUid" : "41077b93f27736108fc7cef38ddd509c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317377700,
+          "stop" : 1599317384725,
+          "duration" : 7025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "test03_DeleteEmployee",
+        "uid" : "ac88fe2705028e06",
+        "parentUid" : "41077b93f27736108fc7cef38ddd509c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317385511,
+          "stop" : 1599317389292,
+          "duration" : 3781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "test04_verifyLogo",
+        "uid" : "c4768f74a0d925dd",
+        "parentUid" : "41077b93f27736108fc7cef38ddd509c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317390179,
+          "stop" : 1599317391200,
+          "duration" : 1021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      } ],
+      "uid" : "41077b93f27736108fc7cef38ddd509c"
+    }, {
+      "name" : "orangeWebDB",
+      "children" : [ {
+        "name" : "test01_login",
+        "uid" : "34b7785361608fc1",
+        "parentUid" : "53bb0f3d03240eba11fbb363eae77c98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317402010,
+          "stop" : 1599317406928,
+          "duration" : 4918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      } ],
+      "uid" : "53bb0f3d03240eba11fbb363eae77c98"
+    }, {
+      "name" : "calculatorDesktop",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "51f4e052bd089bb5",
+        "parentUid" : "107fe57b874e27abaeef2f36bd144f08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599317628900,
+          "stop" : 1599317628901,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Desktop" ]
+      }, {
+        "name" : "test01_calcResult",
+        "uid" : "80779a66c24345a3",
+        "parentUid" : "107fe57b874e27abaeef2f36bd144f08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317942502,
+          "stop" : 1599317948876,
+          "duration" : 6374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Desktop" ]
+      } ],
+      "uid" : "107fe57b874e27abaeef2f36bd144f08"
+    } ],
+    "uid" : "e062ce92619bf6813c57937db86cc3fd"
+  } ]
+}

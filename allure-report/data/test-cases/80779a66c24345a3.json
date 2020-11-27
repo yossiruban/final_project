@@ -1,0 +1,327 @@
+{
+  "uid" : "80779a66c24345a3",
+  "name" : "Test01 Verify Calculator Result",
+  "fullName" : "SanityTests.calculatorDesktop.test01_calcResult",
+  "historyId" : "ef65545883571ae24e55c860cbd49250",
+  "time" : {
+    "start" : 1599317942502,
+    "stop" : 1599317948876,
+    "duration" : 6374
+  },
+  "description" : "Test Description: verify Calculator Result",
+  "descriptionHtml" : "<p>Test Description: verify Calculator Result</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1599317936625,
+      "stop" : 1599317942429,
+      "duration" : 5804
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: verify Calculator Result",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Calculate Addition",
+      "time" : {
+        "start" : 1599317942578,
+        "stop" : 1599317948055,
+        "duration" : 5477
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317943105,
+          "stop" : 1599317944083,
+          "duration" : 978
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='clearButton']]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317944449,
+          "stop" : 1599317945094,
+          "duration" : 645
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='num5Button']]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317945485,
+          "stop" : 1599317946102,
+          "duration" : 617
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='plusButton']]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317946465,
+          "stop" : 1599317947080,
+          "duration" : 615
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='num1Button']]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317947438,
+          "stop" : 1599317948055,
+          "duration" : 617
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='equalButton']]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1599317948452,
+        "stop" : 1599317948870,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='CalculatorResults']]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "6"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1599317949082,
+      "stop" : 1599317949082,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1599317949117,
+      "stop" : 1599317949341,
+      "duration" : 224
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.calculatorDesktop"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.calculatorDesktop"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_calcResult"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Desktop Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.calculatorDesktop"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BRDGUEK"
+  }, {
+    "name" : "thread",
+    "value" : "2944@DESKTOP-BRDGUEK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "Desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9f294c9d5502ea75",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1599317629301,
+        "stop" : 1599317629305,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "57500d9721a4eaf8",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20desktop/11/allure/#testresult/57500d9721a4eaf8",
+        "status" : "skipped",
+        "statusDetails" : "java.lang.NullPointerException",
+        "time" : {
+          "start" : 1599317629301,
+          "stop" : 1599317629305,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "11f3d7038b906ba1",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20desktop/10/allure/#testresult/11f3d7038b906ba1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598353273921,
+          "stop" : 1598353279331,
+          "duration" : 5410
+        }
+      }, {
+        "uid" : "3ec7e0ea48f0c81",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20desktop/9/allure/#testresult/3ec7e0ea48f0c81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597828367625,
+          "stop" : 1597828373556,
+          "duration" : 5931
+        }
+      }, {
+        "uid" : "246fc62c4916af7b",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20desktop/4/allure/#testresult/246fc62c4916af7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597744256129,
+          "stop" : 1597744262060,
+          "duration" : 5931
+        }
+      }, {
+        "uid" : "cbef1f8ffbe017c8",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20desktop/3/allure/#testresult/cbef1f8ffbe017c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597323878307,
+          "stop" : 1597323884058,
+          "duration" : 5751
+        }
+      }, {
+        "uid" : "9c19b794bcf0f732",
+        "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Final%20Project%20desktop/2/allure/#testresult/9c19b794bcf0f732",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597323137152,
+          "stop" : 1597323145647,
+          "duration" : 8495
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "80779a66c24345a3.json",
+  "parameterValues" : [ "Desktop" ]
+}

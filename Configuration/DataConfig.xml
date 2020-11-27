@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!--TimeOut-->
+    <TimeOut>5</TimeOut>
+
+    <!--Credentials-->
+    <user>Admin</user>
+    <password>admin123</password>
+
+    <!--Web-->
+    <BrowserName>Chrome</BrowserName>
+    <URL>https://opensource-demo.orangehrmlive.com/</URL>
+    <ImageRepo>./ImageRepository/</ImageRepo>
+
+    <!--mobile-->
+    <UDID>520080c74f0815af</UDID>
+    <APP_PACKAGE>com.shivgadhia.android.ukMortgageCalc</APP_PACKAGE>
+    <APP_ACTIVITY>.MainActivity</APP_ACTIVITY>
+
+    <!--API-->
+    <!--URL_api>https://api.chucknorris.io/</URL_api-->
+    <URL_api>http://localhost:9000/</URL_api>
+
+
+    <!--Electron-->
+    <ElectronDriverPath>Drivers\electron.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Automation/libs/Electron_API_Demos-win32-ia32/Electron_API_Demos</ElectronAppPath>
+
+    <!--Desktop-->
+    <Calculator>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</Calculator>
+    <Appium_server>HTTP://127.0.0.1:4723</Appium_server>
+
+    <!--DB-->
+    <dbURL>jdbc:mysql://remotemysql.com:3306/OPwvilTHub</dbURL>
+    <dbUser>OPwvilTHub</dbUser>
+    <dbPassword>8V1R7xZ3ya</dbPassword>
+
+</Environment>

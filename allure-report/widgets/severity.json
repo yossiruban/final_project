@@ -1,0 +1,111 @@
+[ {
+  "uid" : "fae1dbb818167d6a",
+  "name" : "Test04: Delete Student and Verify ",
+  "time" : {
+    "start" : 1599316897275,
+    "stop" : 1599316897377,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34b7785361608fc1",
+  "name" : "Test01 Login to Orange",
+  "time" : {
+    "start" : 1599317402010,
+    "stop" : 1599317406928,
+    "duration" : 4918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51f4e052bd089bb5",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1599317628900,
+    "stop" : 1599317628901,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9340a41d5efbb021",
+  "name" : "Test02 Add and Verify Employee",
+  "time" : {
+    "start" : 1599317377700,
+    "stop" : 1599317384725,
+    "duration" : 7025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "660eaa119c1bf678",
+  "name" : "Test03: Update Student and Verify ",
+  "time" : {
+    "start" : 1599316897106,
+    "stop" : 1599316897264,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac88fe2705028e06",
+  "name" : "Test03 Delete and Verify Employee",
+  "time" : {
+    "start" : 1599317385511,
+    "stop" : 1599317389292,
+    "duration" : 3781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80779a66c24345a3",
+  "name" : "Test01 Verify Calculator Result",
+  "time" : {
+    "start" : 1599317942502,
+    "stop" : 1599317948876,
+    "duration" : 6374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "552fe602842ec036",
+  "name" : "Test01 Login to Orange",
+  "time" : {
+    "start" : 1599317370847,
+    "stop" : 1599317376360,
+    "duration" : 5513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbd461e7e397632a",
+  "name" : "Test02: Add new Student ",
+  "time" : {
+    "start" : 1599316896658,
+    "stop" : 1599316897073,
+    "duration" : 415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6715c01e8d1abac",
+  "name" : "Test01: Get Student List",
+  "time" : {
+    "start" : 1599316893140,
+    "stop" : 1599316896318,
+    "duration" : 3178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4768f74a0d925dd",
+  "name" : "Test04 verify Logo",
+  "time" : {
+    "start" : 1599317390179,
+    "stop" : 1599317391200,
+    "duration" : 1021
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

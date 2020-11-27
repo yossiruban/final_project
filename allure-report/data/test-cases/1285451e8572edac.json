@@ -1,0 +1,238 @@
+{
+  "uid" : "1285451e8572edac",
+  "name" : "Test01 Login to Orange",
+  "fullName" : "SanityTests.orangeWebDB.test01_login",
+  "historyId" : "f09fab952fa8e042c81b315966fb4b14",
+  "time" : {
+    "start" : 1599317108283,
+    "stop" : 1599317113021,
+    "duration" : 4738
+  },
+  "description" : "Test Description: Login to Orange Web Application",
+  "descriptionHtml" : "<p>Test Description: Login to Orange Web Application</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1599317098988,
+      "stop" : 1599317108280,
+      "duration" : 9292
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login to Orange Web Application",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login Orange with DB Credentials",
+      "time" : {
+        "start" : 1599317108284,
+        "stop" : 1599317111922,
+        "duration" : 3638
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get the Credentials from DB",
+        "time" : {
+          "start" : 1599317108289,
+          "stop" : 1599317108426,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "query",
+          "value" : "SELECT user_name, password FROM Credentials WHERE id='1'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1599317108475,
+          "stop" : 1599317108641,
+          "duration" : 166
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (8feb45f51f3f08de43dce585397f71c3)] -> id: txtUsername]"
+        }, {
+          "name" : "value",
+          "value" : "Admin"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1599317108658,
+          "stop" : 1599317108788,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (8feb45f51f3f08de43dce585397f71c3)] -> id: txtPassword]"
+        }, {
+          "name" : "value",
+          "value" : "admin123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1599317108815,
+          "stop" : 1599317111922,
+          "duration" : 3107
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (8feb45f51f3f08de43dce585397f71c3)] -> id: btnLogin]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1599317111962,
+        "stop" : 1599317113020,
+        "duration" : 1058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (8feb45f51f3f08de43dce585397f71c3)] -> xpath: //div[@class='box']/div/h1]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "Dashboard"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1599317113930,
+      "stop" : 1599317114774,
+      "duration" : 844
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1599317113023,
+      "stop" : 1599317113928,
+      "duration" : 905
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.orangeWebDB"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.orangeWebDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.orangeWebDB"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BRDGUEK"
+  }, {
+    "name" : "thread",
+    "value" : "5176@DESKTOP-BRDGUEK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "Web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1285451e8572edac.json",
+  "parameterValues" : [ "Web" ]
+}

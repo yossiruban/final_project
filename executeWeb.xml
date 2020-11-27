@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+    <test name="Web Test">
+        <parameter name="PlatformName" value="Web"></parameter>
+        <classes>
+            <class name="SanityTests.orangeWeb"/>
+            <class name="SanityTests.orangeWebDB"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

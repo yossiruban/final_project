@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test01: Get Student List",
+    "uid" : "d6715c01e8d1abac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599316893140,
+      "stop" : 1599316896318,
+      "duration" : 3178
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test02: Add new Student ",
+    "uid" : "dbd461e7e397632a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599316896658,
+      "stop" : 1599316897073,
+      "duration" : 415
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test03: Update Student and Verify ",
+    "uid" : "660eaa119c1bf678",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599316897106,
+      "stop" : 1599316897264,
+      "duration" : 158
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test04: Delete Student and Verify ",
+    "uid" : "fae1dbb818167d6a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599316897275,
+      "stop" : 1599316897377,
+      "duration" : 102
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test01 Login to Orange",
+    "uid" : "552fe602842ec036",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599317370847,
+      "stop" : 1599317376360,
+      "duration" : 5513
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Web" ]
+  }, {
+    "name" : "Test02 Add and Verify Employee",
+    "uid" : "9340a41d5efbb021",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599317377700,
+      "stop" : 1599317384725,
+      "duration" : 7025
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Web" ]
+  }, {
+    "name" : "Test03 Delete and Verify Employee",
+    "uid" : "ac88fe2705028e06",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599317385511,
+      "stop" : 1599317389292,
+      "duration" : 3781
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Web" ]
+  }, {
+    "name" : "Test04 verify Logo",
+    "uid" : "c4768f74a0d925dd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599317390179,
+      "stop" : 1599317391200,
+      "duration" : 1021
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Web" ]
+  }, {
+    "name" : "Test01 Login to Orange",
+    "uid" : "34b7785361608fc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599317402010,
+      "stop" : 1599317406928,
+      "duration" : 4918
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Web" ]
+  }, {
+    "name" : "startSession",
+    "uid" : "51f4e052bd089bb5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1599317628900,
+      "stop" : 1599317628901,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Desktop" ]
+  }, {
+    "name" : "Test01 Verify Calculator Result",
+    "uid" : "80779a66c24345a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1599317942502,
+      "stop" : 1599317948876,
+      "duration" : 6374
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Desktop" ]
+  } ]
+}

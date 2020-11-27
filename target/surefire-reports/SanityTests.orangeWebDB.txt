@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: SanityTests.orangeWebDB
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.034 s <<< FAILURE! - in SanityTests.orangeWebDB
+test01_login(SanityTests.orangeWebDB)  Time elapsed: 0.607 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at SanityTests.orangeWebDB.test01_login(orangeWebDB.java:18)
+

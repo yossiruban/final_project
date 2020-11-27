@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Desktop Test(failed)">
+    <parameter name="PlatformName" value="Desktop"/>
+    <classes>
+      <class name="SanityTests.calculatorDesktop">
+        <methods>
+          <include name="test01_calcResult"/>
+          <include name="startSession"/>
+          <include name="afterMethod"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- SanityTests.calculatorDesktop -->
+    </classes>
+  </test> <!-- Desktop Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,180 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "api Test",
+      "children" : [ {
+        "name" : "SanityTests.StudentListAPI",
+        "children" : [ {
+          "name" : "Test01: Get Student List",
+          "uid" : "d6715c01e8d1abac",
+          "parentUid" : "aecfddb97e627122382c321907b01882",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599316893140,
+            "stop" : 1599316896318,
+            "duration" : 3178
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test02: Add new Student ",
+          "uid" : "dbd461e7e397632a",
+          "parentUid" : "aecfddb97e627122382c321907b01882",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599316896658,
+            "stop" : 1599316897073,
+            "duration" : 415
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test03: Update Student and Verify ",
+          "uid" : "660eaa119c1bf678",
+          "parentUid" : "aecfddb97e627122382c321907b01882",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599316897106,
+            "stop" : 1599316897264,
+            "duration" : 158
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "Test04: Delete Student and Verify ",
+          "uid" : "fae1dbb818167d6a",
+          "parentUid" : "aecfddb97e627122382c321907b01882",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599316897275,
+            "stop" : 1599316897377,
+            "duration" : 102
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        } ],
+        "uid" : "aecfddb97e627122382c321907b01882"
+      } ],
+      "uid" : "2b79a763814efcfa5bcd03b60b15a84e"
+    }, {
+      "name" : "Web Test",
+      "children" : [ {
+        "name" : "SanityTests.orangeWeb",
+        "children" : [ {
+          "name" : "Test01 Login to Orange",
+          "uid" : "552fe602842ec036",
+          "parentUid" : "02ae0843687e16768ec95080ba3a30a4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599317370847,
+            "stop" : 1599317376360,
+            "duration" : 5513
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Web" ]
+        }, {
+          "name" : "Test02 Add and Verify Employee",
+          "uid" : "9340a41d5efbb021",
+          "parentUid" : "02ae0843687e16768ec95080ba3a30a4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599317377700,
+            "stop" : 1599317384725,
+            "duration" : 7025
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Web" ]
+        }, {
+          "name" : "Test03 Delete and Verify Employee",
+          "uid" : "ac88fe2705028e06",
+          "parentUid" : "02ae0843687e16768ec95080ba3a30a4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599317385511,
+            "stop" : 1599317389292,
+            "duration" : 3781
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Web" ]
+        }, {
+          "name" : "Test04 verify Logo",
+          "uid" : "c4768f74a0d925dd",
+          "parentUid" : "02ae0843687e16768ec95080ba3a30a4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599317390179,
+            "stop" : 1599317391200,
+            "duration" : 1021
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Web" ]
+        } ],
+        "uid" : "02ae0843687e16768ec95080ba3a30a4"
+      }, {
+        "name" : "SanityTests.orangeWebDB",
+        "children" : [ {
+          "name" : "Test01 Login to Orange",
+          "uid" : "34b7785361608fc1",
+          "parentUid" : "207bced3b6fbbfa6bf2f5a26942f283e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599317402010,
+            "stop" : 1599317406928,
+            "duration" : 4918
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Web" ]
+        } ],
+        "uid" : "207bced3b6fbbfa6bf2f5a26942f283e"
+      } ],
+      "uid" : "907fcd56a7e556afc5b2731f94e172c4"
+    }, {
+      "name" : "Desktop Test",
+      "children" : [ {
+        "name" : "SanityTests.calculatorDesktop",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "51f4e052bd089bb5",
+          "parentUid" : "e752810e10b5e5dccd5308429fda15d6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599317628900,
+            "stop" : 1599317628901,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Desktop" ]
+        }, {
+          "name" : "Test01 Verify Calculator Result",
+          "uid" : "80779a66c24345a3",
+          "parentUid" : "e752810e10b5e5dccd5308429fda15d6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599317942502,
+            "stop" : 1599317948876,
+            "duration" : 6374
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Desktop" ]
+        } ],
+        "uid" : "e752810e10b5e5dccd5308429fda15d6"
+      } ],
+      "uid" : "3124c9c73feb49a5fc5b5b2d8ab20e07"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

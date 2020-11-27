@@ -1,0 +1,362 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-BRDGUEK",
+    "children" : [ {
+      "name" : "6916@DESKTOP-BRDGUEK.main(1)",
+      "children" : [ {
+        "name" : "Test02: Add new Student ",
+        "uid" : "dbd461e7e397632a",
+        "parentUid" : "c40f570dde87a71772023f591d9dceb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316896658,
+          "stop" : 1599316897073,
+          "duration" : 415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test01: Get Student List",
+        "uid" : "d6715c01e8d1abac",
+        "parentUid" : "c40f570dde87a71772023f591d9dceb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316893140,
+          "stop" : 1599316896318,
+          "duration" : 3178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test04: Delete Student and Verify ",
+        "uid" : "fae1dbb818167d6a",
+        "parentUid" : "c40f570dde87a71772023f591d9dceb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316897275,
+          "stop" : 1599316897377,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test03: Update Student and Verify ",
+        "uid" : "660eaa119c1bf678",
+        "parentUid" : "c40f570dde87a71772023f591d9dceb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316897106,
+          "stop" : 1599316897264,
+          "duration" : 158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "c40f570dde87a71772023f591d9dceb2"
+    }, {
+      "name" : "880@DESKTOP-BRDGUEK.main(1)",
+      "children" : [ {
+        "name" : "Test03 Delete and Verify Employee",
+        "uid" : "ac88fe2705028e06",
+        "parentUid" : "a926c30eb9d3d580138c43de78e46b76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317385511,
+          "stop" : 1599317389292,
+          "duration" : 3781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "Test04 verify Logo",
+        "uid" : "c4768f74a0d925dd",
+        "parentUid" : "a926c30eb9d3d580138c43de78e46b76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317390179,
+          "stop" : 1599317391200,
+          "duration" : 1021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "Test02 Add and Verify Employee",
+        "uid" : "9340a41d5efbb021",
+        "parentUid" : "a926c30eb9d3d580138c43de78e46b76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317377700,
+          "stop" : 1599317384725,
+          "duration" : 7025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "Test01 Login to Orange",
+        "uid" : "34b7785361608fc1",
+        "parentUid" : "a926c30eb9d3d580138c43de78e46b76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317402010,
+          "stop" : 1599317406928,
+          "duration" : 4918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "Test01 Login to Orange",
+        "uid" : "552fe602842ec036",
+        "parentUid" : "a926c30eb9d3d580138c43de78e46b76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317370847,
+          "stop" : 1599317376360,
+          "duration" : 5513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      } ],
+      "uid" : "a926c30eb9d3d580138c43de78e46b76"
+    }, {
+      "name" : "5176@DESKTOP-BRDGUEK.main(1)",
+      "children" : [ {
+        "name" : "Test01 Login to Orange",
+        "uid" : "1285451e8572edac",
+        "parentUid" : "6c7ad04aff1798566d3f3b5fbd873e82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317108283,
+          "stop" : 1599317113021,
+          "duration" : 4738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "Test04 verify Logo",
+        "uid" : "da9c7278d2fb4453",
+        "parentUid" : "6c7ad04aff1798566d3f3b5fbd873e82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317096344,
+          "stop" : 1599317097351,
+          "duration" : 1007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "Test01 Login to Orange",
+        "uid" : "7ecf4392fc178902",
+        "parentUid" : "6c7ad04aff1798566d3f3b5fbd873e82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317077760,
+          "stop" : 1599317082058,
+          "duration" : 4298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "Test03 Delete and Verify Employee",
+        "uid" : "ed0f75718ab282c2",
+        "parentUid" : "6c7ad04aff1798566d3f3b5fbd873e82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317091788,
+          "stop" : 1599317095524,
+          "duration" : 3736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      }, {
+        "name" : "Test02 Add and Verify Employee",
+        "uid" : "39f293850633fca7",
+        "parentUid" : "6c7ad04aff1798566d3f3b5fbd873e82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317084307,
+          "stop" : 1599317090981,
+          "duration" : 6674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Web" ]
+      } ],
+      "uid" : "6c7ad04aff1798566d3f3b5fbd873e82"
+    }, {
+      "name" : "11072@DESKTOP-BRDGUEK.main(1)",
+      "children" : [ {
+        "name" : "Test04: Delete Student and Verify ",
+        "uid" : "4727ac97cee814a9",
+        "parentUid" : "f2092af360889a4d5ad903787ee2f82c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599316802426,
+          "stop" : 1599316802618,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test01: Get Student List",
+        "uid" : "6d0a89326480a382",
+        "parentUid" : "f2092af360889a4d5ad903787ee2f82c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316797800,
+          "stop" : 1599316801469,
+          "duration" : 3669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test02: Add new Student ",
+        "uid" : "e9a18ad2111f81c2",
+        "parentUid" : "f2092af360889a4d5ad903787ee2f82c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316801713,
+          "stop" : 1599316802016,
+          "duration" : 303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test03: Update Student and Verify ",
+        "uid" : "df827d9ab7d091e0",
+        "parentUid" : "f2092af360889a4d5ad903787ee2f82c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599316802144,
+          "stop" : 1599316802373,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "f2092af360889a4d5ad903787ee2f82c"
+    }, {
+      "name" : "5216@DESKTOP-BRDGUEK.main(1)",
+      "children" : [ {
+        "name" : "Test02: Add new Student ",
+        "uid" : "578a868623371978",
+        "parentUid" : "c29b6a3a17d7b9bf3b83290a2cf75b9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316855917,
+          "stop" : 1599316856221,
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test01: Get Student List",
+        "uid" : "72b35f664db383c5",
+        "parentUid" : "c29b6a3a17d7b9bf3b83290a2cf75b9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599316854051,
+          "stop" : 1599316855744,
+          "duration" : 1693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test04: Delete Student and Verify ",
+        "uid" : "fcaee29fcbc5439a",
+        "parentUid" : "c29b6a3a17d7b9bf3b83290a2cf75b9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316856435,
+          "stop" : 1599316856667,
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test03: Update Student and Verify ",
+        "uid" : "3901e49dce25e927",
+        "parentUid" : "c29b6a3a17d7b9bf3b83290a2cf75b9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599316856236,
+          "stop" : 1599316856412,
+          "duration" : 176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "c29b6a3a17d7b9bf3b83290a2cf75b9f"
+    }, {
+      "name" : "10552@DESKTOP-BRDGUEK.main(1)",
+      "children" : [ {
+        "name" : "Test01 Verify Calculator Result",
+        "uid" : "9f294c9d5502ea75",
+        "parentUid" : "60313a2a1e70fd97a56f81dccc6cbcb9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1599317629301,
+          "stop" : 1599317629305,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "51f4e052bd089bb5",
+        "parentUid" : "60313a2a1e70fd97a56f81dccc6cbcb9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599317628900,
+          "stop" : 1599317628901,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Desktop" ]
+      } ],
+      "uid" : "60313a2a1e70fd97a56f81dccc6cbcb9"
+    }, {
+      "name" : "2944@DESKTOP-BRDGUEK.main(1)",
+      "children" : [ {
+        "name" : "Test01 Verify Calculator Result",
+        "uid" : "80779a66c24345a3",
+        "parentUid" : "1c4cd5d01272c69b26e876ce507e7e65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599317942502,
+          "stop" : 1599317948876,
+          "duration" : 6374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Desktop" ]
+      } ],
+      "uid" : "1c4cd5d01272c69b26e876ce507e7e65"
+    } ],
+    "uid" : "8458c5500d09a6ab2b4178fc96d9d2fa"
+  } ]
+}

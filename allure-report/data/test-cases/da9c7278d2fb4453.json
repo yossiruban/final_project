@@ -1,0 +1,145 @@
+{
+  "uid" : "da9c7278d2fb4453",
+  "name" : "Test04 verify Logo",
+  "fullName" : "SanityTests.orangeWeb.test04_verifyLogo",
+  "historyId" : "4c59ac8d31a941868ea885f251f3b74f",
+  "time" : {
+    "start" : 1599317096344,
+    "stop" : 1599317097351,
+    "duration" : 1007
+  },
+  "description" : "Test Description: verify Orange Logo",
+  "descriptionHtml" : "<p>Test Description: verify Orange Logo</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1599317063688,
+      "stop" : 1599317077659,
+      "duration" : 13971
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: verify Orange Logo",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Element Visually",
+      "time" : {
+        "start" : 1599317096378,
+        "stop" : 1599317097350,
+        "duration" : 972
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "imageElement",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (44ba035fba5f8edbd4e37e9d41d8e234)] -> xpath: //*[@href='/index.php/time/viewEmployeeTimesheet']/img]"
+      }, {
+        "name" : "expectedImageName",
+        "value" : "orangeTimesheets_ver01"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1599317097353,
+      "stop" : 1599317098063,
+      "duration" : 710
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1599317098073,
+      "stop" : 1599317098976,
+      "duration" : 903
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.orangeWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.orangeWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test04_verifyLogo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.orangeWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BRDGUEK"
+  }, {
+    "name" : "thread",
+    "value" : "5176@DESKTOP-BRDGUEK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "Web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da9c7278d2fb4453.json",
+  "parameterValues" : [ "Web" ]
+}

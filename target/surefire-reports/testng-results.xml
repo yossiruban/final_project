@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12843" started-at="2020-09-05T14:58:56Z" finished-at="2020-09-05T14:59:09Z">
+    <groups>
+    </groups>
+    <test name="Desktop Test" duration-ms="12843" started-at="2020-09-05T14:58:56Z" finished-at="2020-09-05T14:59:09Z">
+      <class name="SanityTests.calculatorDesktop">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:SanityTests.calculatorDesktop@560513ce]" name="startSession" is-config="true" duration-ms="5852" started-at="2020-09-05T14:58:56Z" finished-at="2020-09-05T14:59:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="test01_calcResult()[pri:0, instance:SanityTests.calculatorDesktop@560513ce]" name="test01_calcResult" duration-ms="6429" started-at="2020-09-05T14:59:02Z" description="Test01 Verify Calculator Result" finished-at="2020-09-05T14:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_calcResult -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.calculatorDesktop@560513ce]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-05T14:59:09Z" finished-at="2020-09-05T14:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:SanityTests.calculatorDesktop@560513ce]" name="closeSession" is-config="true" duration-ms="225" started-at="2020-09-05T14:59:09Z" finished-at="2020-09-05T14:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- SanityTests.calculatorDesktop -->
+    </test> <!-- Desktop Test -->
+  </suite> <!-- Suite -->
+</testng-results>
